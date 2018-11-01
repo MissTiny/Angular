@@ -6,10 +6,9 @@ import { Hero } from '../models/hero';
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
-  @Input() hero: Hero;
-  constructor() { }
+  @Input()
+  hero: Hero;
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
